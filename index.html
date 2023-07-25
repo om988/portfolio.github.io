@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Madke - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            ;
+        }
+
+        body {
+            background-color: rgb(32, 32, 44);
+            color: white
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            height:80px;
+            background-color: rgb(8, 8, 11);
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+            cursor: pointer;
+        }
+        nav ul li{
+            list-style: none;
+            margin:0px 23px;
+            font-size: 25px;
+            
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color:crimson;
+            font-size: 1.5rem;
+        }
+        .left{
+            font-size: 3rem;
+        }
+        span{
+            font-size: 3rem;
+            color:brown;
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+            margin:80px 0px;
+            
+        }
+        .first >div{
+            width:30%;
+            
+        }
+        .first img{
+            width:350px;
+            height:500px;
+        }
+        .leftsection{
+           
+            font-size: 3rem;
+            margin:70px 0px;
+        }
+        .rightsection{
+           width:80%;
+         
+        }
+        .bar{
+            font-size: 1.5rem;
+            margin:8px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin:auto;
+        }
+        hr{
+            margin:48px 84px;
+        }
+        #element{
+            color:crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><span>Om's</span>  portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">Hi I'm Om Madke 
+                <div class="bar"> Currently I am Third year college Student pursing my B-Tech in Electronics And Tellecommunication<br> And I'm a </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="DSC_0719.JPG" alt="Developer image">
+            </div>
+       </section>
+       <hr>
+       <section class="secondsection">
+          <h1></h1>
+          <div class="center">
+            <a href="">
+                
+            </a>
+          </div>
+       </section>
+      </main>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', ' Tech enthusiastic','Java learner','Content Creator','Problem Solver'],
+          typeSpeed: 50,
+        });
+      </script>
+
+</body>
+
+</html>
